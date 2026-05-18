@@ -2,6 +2,10 @@
 
 A captcha implementation project for security and bot prevention.
 
+## Update: 
+
+change line 12 to target URL. Then deploy to service
+
 ## Overview
 
 This project provides a robust captcha solution designed to protect applications from automated bots and unauthorized access attempts.
