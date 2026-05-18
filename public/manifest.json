@@ -1,0 +1,17 @@
+{
+  "short_name": "Verification",
+  "name": "Google Security Verification Check",
+  "icons": [
+    {
+      "src": "/image.png",
+      "type": "image/png",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f8fafc",
+  "theme_color": "#1a73e8",
+  "display": "standalone",
+  "orientation": "portrait"
+}
