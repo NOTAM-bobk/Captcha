@@ -4,11 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google Verification | Human Security Check</title>
+    
+    <!-- Tab Icon (Favicon) Linking -->
+    <link rel="icon" type="image/png" href="/image.png" />
+    
+    <!-- PWA iOS Web App Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Verification">
+    <link rel="apple-touch-icon" href="/image.png">
+
+    <!-- Web App Manifest Link -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Tailwind CSS (for modern UI utility classes) -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- FontAwesome (for clean and high-quality utility icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
   <body class="bg-slate-50 text-slate-800">
+    <!-- Root division where React mounts the App.jsx file -->
     <div id="root"></div>
+    
+    <!-- Main JavaScript module launcher -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
